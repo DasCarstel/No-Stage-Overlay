@@ -1,1 +1,16 @@
-/* Hide the Stage's video control overlay */ :fullscreen .videoControls_dd069c { display: none !important; }
+/* Versteckt das Stage-Overlay */ 
+:fullscreen .videoControls_dd069c { display: none !important; }
+
+/* Versteckt weitere Stage-Elemente*/
+:fullscreen .rowContainer_f3a5b1 { display: none !important; }
+:fullscreen .spacer_bb12d2 { display: none !important; }
+:fullscreen .container_cbfbcf { display: none !important; }
+:fullscreen .header_bb12d2 { display: none !important; }
+:fullscreen .participants_a07d72 { display: none !important; }
+:fullscreen .indicators_ba4b17 { display: none !important; }
+
+
+/* Lässt die eigentliche Video-Kachel bildschirmfüllend erscheinen */ 
+:fullscreen .tile_ba4b17.tile_dc5fc4 { width: 100vw !important; height: 100vh !important; margin: 0 !important; padding: 0 !important; overflow: hidden !important; }
+/* Macht den "grauen" Hintergrund transparent */ 
+:fullscreen .background_cff728 { background-color: transparent !important; }
